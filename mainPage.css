@@ -1,0 +1,58 @@
+.banner {
+    display: flex;
+    margin-top: 160px;
+}
+
+.banner h1 {
+    color: #fff;
+    margin-top: 155px;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.banner img {
+    max-width: 50%;
+    
+}
+
+.upcoming {
+    margin-top: 130px;
+}
+
+.upcoming img {
+    max-width: 40%;
+    max-height: 50%;
+    
+}
+
+.upcoming h1 {
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.upcoming p {
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+
+.lifenight {
+    flex-wrap: wrap;
+}
+
+.retreat h2 {
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+#quote {
+    font-weight: 300;
+    color: #fff;
+    font-style: italic;
+    margin-top: 30px;
+    text-decoration: none;
+    
+}

@@ -1,0 +1,113 @@
+.about{
+    margin-top: 175px;
+}
+
+.about h2 {
+    font-weight: 300;
+    font-family: 'Montserrat' sans-serif;
+    margin: 1%;
+}
+
+.bios {
+    margin-top: 70px;
+
+}
+
+.bios h1 {
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.bios img {
+    margin-left: 1%;
+}
+
+.YouthMinister {
+    margin-top: 50px;
+}
+
+.YouthMinister img {
+    max-width: 25;
+}
+
+.YouthMinister h2 {
+    text-align: center;
+    margin-left: 1%;
+    text-decoration: underline;
+}
+
+.YouthMinister h3 {
+    text-align: left;
+    font-weight: 300;
+    margin-left: .5%;
+}
+
+.YouthMinister {
+    font-weight: 300;
+    text-align: left;
+    margin-left: 1%;
+    display: block;
+    margin-left: 5px;
+    text-indent: none;
+}
+
+.names1 {
+    display: flex;
+}
+
+.names1 h3 {
+    margin-right: 49%;
+    margin-left: .5%;
+}
+
+.kenBio {
+    display: flex;
+    text-indent: 7px;
+    width: 46%;
+}
+
+.kenBio h3 {
+    margin-left: 3%;
+}
+
+.kenBio img {
+    max-width: 25%;
+
+}
+
+.coreTeam {
+    font-weight: 300;
+    margin-left: 1%;
+    display: block;
+    margin-left: 5px;
+    text-indent: none;
+    margin-top: 100px;
+}
+
+.coreTeam h2 {
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.coreTeam h3 {
+    text-align: left;
+    margin-left: .5%;
+    font-weight: 300;
+}
+
+.coreBio1 {
+    display: flex;
+    text-indent: 7px;
+
+}
+
+.coreBio1 img {
+    max-width: 25%;
+    max-height: 230px;
+}
+
+.coreBio1 h3 {
+    margin-top: 0;
+    font-weight: 300;
+
+}
