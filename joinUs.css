@@ -1,0 +1,16 @@
+.flocknote {
+    margin-top: 155px;
+}
+
+button {
+    background-color: #316488;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
