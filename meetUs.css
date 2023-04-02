@@ -10,7 +10,7 @@
 
 .bios {
     margin-top: 70px;
-
+    background-color:#fff;
 }
 
 .bios h1 {
@@ -71,7 +71,7 @@
 }
 
 .kenBio img {
-    max-width: 25%;
+    max-width: 30%;
 
 }
 
@@ -102,7 +102,7 @@
 }
 
 .coreBio1 img {
-    max-width: 25%;
+    max-width: 40%;
     max-height: 230px;
 }
 
