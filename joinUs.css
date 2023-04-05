@@ -1,7 +1,21 @@
-.join {
+.join h1{
     margin-top: 150px;
     text-decoration: underline;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.info h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.info h3 {
+    font-weight: 400 ;
+}
+
+.form {
+    display: inline-block;
 }
 
 .schedule {
@@ -9,16 +23,26 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.schedule h1 {
+.schedule h3 {
     text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: x-large;
 }
 
 .schedule h4 {
     text-align: left;
+    margin-bottom: 1px;
+    text-decoration: underline;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .schedule p {
     text-align: left;
+    margin-top: 0;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 400;
 }
 
 .flocknote {
@@ -39,11 +63,11 @@
 button {
     background-color: #426091;
     border-radius: 2px;
-    color: #ffffff;
+    color: antiquewhite;
     font-family: 'Raleway',sans-serif;
     font-size: 16px;
     font-weight: 400;
-    padding: 14px;
+    padding: 12px;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
@@ -55,4 +79,7 @@ button:hover {
 
 input {
     height: 40px;
+    background-color: #797979;
+    border: none;
+    margin: auto;
 }

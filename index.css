@@ -1,12 +1,12 @@
 body {
-    background-color: #000000;
+    background-color: #090909;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: antiquewhite;
 }
 
 .nav {
-    background-color: #f3f3f3;
+    background-color: #bcbcbc;
     color: #000000;
     box-sizing: border-box;
     display: block;
