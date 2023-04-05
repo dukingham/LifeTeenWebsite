@@ -1,11 +1,13 @@
 body {
-    background-color: #797979;
+    background-color: #000000;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    color: antiquewhite;
 }
 
 .nav {
-    background-color: #0000004f;
+    background-color: #f3f3f3;
+    color: #000000;
     box-sizing: border-box;
     display: block;
     text-align: center;
@@ -25,13 +27,13 @@ body {
     font-size: 30px;
     display: inline-block;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     padding-left: 25px;
     padding-right: 25px;
 }
 
 .nav a {
-    color: #fff;
+    color: #000;
     margin: 15px;
     text-decoration: none;
 }

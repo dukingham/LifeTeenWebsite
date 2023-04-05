@@ -2,6 +2,12 @@
     margin-top: 175px;
 }
 
+.about h1 {
+    text-decoration: underline;
+    font-weight: 400;
+    
+}
+
 .about h2 {
     font-weight: 300;
     font-family: 'Montserrat' sans-serif;
@@ -10,7 +16,6 @@
 
 .bios {
     margin-top: 70px;
-    background-color:#fff;
 }
 
 .bios h1 {

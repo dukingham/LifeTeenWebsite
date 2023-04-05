@@ -1,14 +1,39 @@
+.join {
+    margin-top: 150px;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .schedule {
     margin-top: 155px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .schedule h1 {
     text-decoration: underline;
 }
 
+.schedule h4 {
+    text-align: left;
+}
+
+.schedule p {
+    text-align: left;
+}
+
 .flocknote {
-    margin-top: 150px;
+    margin-top: 30px;
+    font-size: 16px;
+    display: flex;
+}
+
+.info {
+    width: 50%;
+}
+
+.form {
+    margin-top: 50px;
+    width: 50%;
 }
 
 button {
@@ -30,5 +55,4 @@ button:hover {
 
 input {
     height: 40px;
-    font-size: 16px;
 }
