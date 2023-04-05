@@ -12,7 +12,7 @@
 }
 
 button {
-    background-color: #2c73a6;
+    background-color: #426091;
     border-radius: 2px;
     color: #ffffff;
     font-family: 'Raleway',sans-serif;
@@ -24,6 +24,11 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #426091a3;
+}
+
 input {
     height: 40px;
+    font-size: 16px;
 }
