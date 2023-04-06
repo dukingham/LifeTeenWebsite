@@ -30,12 +30,14 @@ body {
     color: #000;
     padding-left: 25px;
     padding-right: 25px;
+    text-align: center;
 }
 
 .nav a {
     color: #000;
     margin: 15px;
     text-decoration: none;
+    text-align: center;
 }
 
 .nav a:hover {
