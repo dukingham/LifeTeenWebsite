@@ -9,18 +9,26 @@ body {
     background-color: #bcbcbc;
     color: #000000;
     box-sizing: border-box;
-    display: block;
+    display: flex;
+    flex-direction: row;
     text-align: center;
     padding: 0;
     margin: 0;
-    height: auto;
     position: fixed;
+    height: auto;
+    align-content: center;
     z-index: 10;
     width: 100%; 
     top: 0px;
     left: 0px;
-    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+}
+
+.nav ul {
+    align-content: center;
+    margin-left: 22%;
+    display: flex;
+    flex-direction: row;
 }
 
 .nav li {
@@ -30,7 +38,8 @@ body {
     color: #000;
     padding-left: 25px;
     padding-right: 25px;
-    text-align: center;
+    text-align: justify;
+    
 }
 
 .nav a {
@@ -46,4 +55,24 @@ body {
 
 img {
     border-radius: 5%;
+}
+
+@media (max-width: 760px) {
+    .nav {
+        flex-direction: column;
+
+    }
+    
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding: 0;
+    }
+
+    .nav li {
+        text-align: center;
+        font-size: 25px;
+        flex-direction: column;
+    }
 }
