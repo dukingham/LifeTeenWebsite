@@ -6,7 +6,7 @@ body {
 }
 
 .nav {
-    background-color: #bcbcbc;
+    background-color: #d9d7d7;
     color: #000000;
     box-sizing: border-box;
     display: flex;
@@ -60,14 +60,15 @@ img {
 @media (max-width: 760px) {
     .nav {
         flex-direction: column;
-
+        background-color: #d9d7d7;
     }
     
     .nav ul {
         flex-direction: column;
         align-items: center;
-        margin: auto;
+        margin: 3px 0 3px;
         padding: 0;
+        
     }
 
     .nav li {
