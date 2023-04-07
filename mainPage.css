@@ -57,7 +57,7 @@
     text-decoration: none;
 }
 
-@media(max-width: 760px) {
+@media(max-width: 800px) {
     .banner {
         flex-direction: column;
         margin-top: 120px;
@@ -98,4 +98,26 @@
         margin-top: 50px;
     }
     
+}
+
+@media (max-width: 850px) {
+
+    .banner {
+        flex-direction: column;
+        margin-top: 120px;
+    }
+
+    .banner img {
+        max-width: 100%;
+    }
+
+    .banner h1 {
+        margin-top: auto;
+        text-align: center;
+    }
+
+    .upcoming {
+        margin-top: 50px;
+    }
+
 }

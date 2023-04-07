@@ -58,6 +58,7 @@
 
 .names1 {
     display: flex;
+    text-decoration: underline;
 }
 
 .names1 h3 {
@@ -118,10 +119,28 @@
     font-weight: 300;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 800px) {
     .kenBio,
     .coreBio1 {
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
+
+    h3.names {
+        text-align: center;
+    }
+
+    .coreTeam h3 {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    h3.names1{
+        text-align: center;
+        flex-direction: column;
+        
+    }
+
 }
