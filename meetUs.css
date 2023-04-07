@@ -56,16 +56,6 @@
     text-indent: none;
 }
 
-.names1 {
-    display: flex;
-    text-decoration: underline;
-}
-
-.names1 h3 {
-    margin-right: 49%;
-    margin-left: .5%;
-}
-
 .kenBio {
     display: flex;
     flex-direction: row;
