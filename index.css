@@ -1,3 +1,4 @@
+/* this style sheet gives us the basic rules used across the site */
 html {
     background-color: #090909;
     font-family: 'Montserrat', sans-serif;
@@ -5,6 +6,7 @@ html {
     color: antiquewhite;
 }
 
+/* Nav section of the site */
 .nav {
     background-color: #d9d7d7;
     color: #000000;
@@ -56,13 +58,18 @@ html {
     color: #6c839a;
 }
 
+/* basic image rules */
 img {
     border-radius: 5%;
 }
 
+/* footer rules */
 footer {
+    font-style: italic;
     color: #363636;
 }
+
+/* mobile responciveness general rules */
 @media (max-width: 800px) {
     .nav {
         flex-direction: column;

@@ -1,3 +1,6 @@
+/* This style sheet is specific rule set for the main page */
+
+/* Banner portion*/
 .banner {
     display: flex;
     flex-direction: row;
@@ -19,6 +22,7 @@
     max-height: 25%;
 }
 
+/* upcoming rule sets*/
 .upcoming {
     margin-top: 130px;
 }
@@ -40,10 +44,12 @@
 
 }
 
+/* Lifenight div*/
 .lifenight {
     flex-wrap: wrap;
 }
 
+/* retreat div */
 .retreat h2 {
     margin-top: 100px;
     text-decoration: underline;
@@ -57,6 +63,7 @@
     text-decoration: none;
 }
 
+/* rule set for mobil responciveness specifically for phones */
 @media(max-width: 800px) {
     .banner {
         flex-direction: column;
@@ -97,9 +104,9 @@
     .retreat h2 {
         margin-top: 50px;
     }
-    
 }
 
+/* Rule set for mobile responciveness specifically for tablets*/
 @media (max-width: 850px) {
 
     .banner {
@@ -119,5 +126,4 @@
     .upcoming {
         margin-top: 50px;
     }
-
 }

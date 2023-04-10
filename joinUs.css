@@ -1,3 +1,6 @@
+/* Style Sheet of the Join us page */
+
+
 .join h1{
     margin-top: 200px;
     text-decoration: underline;
@@ -5,12 +8,14 @@
     font-weight: 400;
 }
 
+/* flocknote rule sets */
 .flocknote {
     margin-top: 30px;
     font-size: 16px;
     display: flex;
 }
 
+/* left of the form information rule set */
 .info {
     width: 50%;
 }
@@ -24,6 +29,7 @@
     font-weight: 400 ;
 }
 
+/* rule set for the form itself */
 .form {
     margin-top: 50px;
     width: 50%;
@@ -54,6 +60,7 @@ input {
     margin: auto;
 }
 
+/* sample schedule rule set */
 .schedule {
     margin-top: 70px;
     font-family: 'Montserrat', sans-serif;

@@ -1,3 +1,6 @@
+/* rule sets for the the Meet us page */
+
+/* about section*/
 .about{
     margin-top: 175px;
 }
@@ -14,6 +17,7 @@
     margin: 1%;
 }
 
+/* Bios div */
 .bios {
     margin-top: 70px;
 }
@@ -27,6 +31,7 @@
     margin-left: 1%;
 }
 
+/* sub div of bios. Youth ministrers rule set */
 .YouthMinister {
     margin-top: 50px;
 }
@@ -56,6 +61,7 @@
     text-indent: none;
 }
 
+/* Ken Bio subdiv of youth minister */
 .kenBio {
     display: flex;
     flex-direction: row;
@@ -69,9 +75,9 @@
 
 .kenBio img {
     max-width: 30%;
-
 }
 
+/* core team sub div of bios rule set */
 .coreTeam {
     font-weight: 300;
     margin-left: 1%;
@@ -94,6 +100,7 @@
     margin-top: 0;
 }
 
+/* rule set for the first section of the core tem bios */
 .coreBio1 {
     display: flex;
     flex-direction: row;
@@ -111,6 +118,7 @@
     font-weight: 300;
 }
 
+/* mobile responsiveness rule set */
 @media (max-width: 800px) {
     .kenBio,
     .coreBio1 {
@@ -135,8 +143,6 @@
 
     h3.names1{
         text-align: center;
-        flex-direction: column;
-        
+        flex-direction: column; 
     }
-
 }
