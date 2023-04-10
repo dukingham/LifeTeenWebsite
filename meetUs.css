@@ -75,7 +75,8 @@
 .coreTeam {
     font-weight: 300;
     margin-left: 1%;
-    display: block;
+    display: flex;
+    flex-direction: row;
     margin-left: 5px;
     text-indent: none;
     margin-top: 100px;
@@ -90,6 +91,7 @@
     text-align: left;
     margin-left: .5%;
     font-weight: 300;
+    margin-top: 0;
 }
 
 .coreBio1 {
@@ -119,6 +121,10 @@
 
     h3.names {
         text-align: center;
+    }
+
+    .coreTeam {
+        flex-direction: column;
     }
 
     .coreTeam h3 {

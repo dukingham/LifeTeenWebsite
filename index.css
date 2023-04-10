@@ -1,4 +1,4 @@
-body {
+html {
     background-color: #090909;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -60,6 +60,9 @@ img {
     border-radius: 5%;
 }
 
+footer {
+    color: #363636;
+}
 @media (max-width: 800px) {
     .nav {
         flex-direction: column;
