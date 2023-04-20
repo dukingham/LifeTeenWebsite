@@ -74,7 +74,8 @@
 }
 
 .kenBio img {
-    max-width: 30%;
+    max-width: 300px;
+    max-height: 350px;
 }
 
 /* core team sub div of bios rule set */
@@ -105,17 +106,25 @@
     display: flex;
     flex-direction: row;
     text-indent: 7px;
-
-}
-
-.coreBio1 img {
-    max-width: 40%;
-    max-height: 230px;
+    max-width: 500px;
 }
 
 .coreBio1 h3 {
-    margin-top: 0;
-    font-weight: 300;
+    margin: 25px 10px 0 10px;
+
+}
+.names1{
+    display: flex;
+    flex-direction: column;
+}
+.names1 h3{
+    margin-bottom: 0;
+    
+}
+.names1 img {
+    padding-top: 5px;
+    max-height: 300px;
+
 }
 
 /* mobile responsiveness rule set */
@@ -126,8 +135,11 @@
         width: 100%;
         align-items: center;
     }
-
-    h3.names {
+    
+    .kenBio img {
+        max-width: 200px;
+    }
+    .names h3{
         text-align: center;
     }
 
@@ -141,8 +153,19 @@
         margin-right: 0;
     }
 
-    h3.names1{
+    .names1{
         text-align: center;
         flex-direction: column; 
+        align-items: center;
     }
+    .names1 img {
+        
+        padding-top: 5px;
+        min-height: 250px;
+        max-width: 200px;
+
+
+
+    }
+
 }
